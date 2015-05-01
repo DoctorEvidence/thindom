@@ -28,7 +28,7 @@ config =
       glob: './src/**/*.coffee'
       cwd: './src'
     #paths: ['./']
-    filename: 'ThinDOM.js'
+    filename: 'thinDOM.js'
     dest: './dist'
 
 

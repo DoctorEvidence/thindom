@@ -16,7 +16,7 @@ gulp.task 'uglify', ->
   logger.start()
 
   #2: compile dist files
-  gulp.src './dist/ThinDOM.js'
+  gulp.src './dist/thinDOM.js'
     .pipe rename suffix: '.min'
     .pipe uglify outSourceMap: true
     .pipe header.succinct()
