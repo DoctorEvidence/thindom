@@ -65,7 +65,7 @@ runbrowserify = (name) ->
       # stream gulp compatible. Specify the
       # desired output filename here.
       .pipe source cfg.filename
-      .pipe header.extended()
+      #.pipe header.extended()
       # Specify the output destination
       .pipe gulp.dest cfg.dest
 
